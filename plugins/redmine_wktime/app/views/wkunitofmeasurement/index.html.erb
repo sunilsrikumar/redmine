@@ -1,0 +1,6 @@
+<%= javascript_include_tag 'index', :plugin => "redmine_wktime" %>
+<div class="wk-contextual" style="float:right;">
+      <%= render :partial => 'wkproduct/sidebar' %>
+</div>
+<h2><%= l(:label_uom) %></h2>
+<%= render :partial => 'wkunitofmeasurement/uom_index'%>
